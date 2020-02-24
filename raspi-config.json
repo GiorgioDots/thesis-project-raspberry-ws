@@ -1,5 +1,1 @@
-{
-    "raspiId": "123456",
-    "resolution": "1920x1080",
-    "confidence": 50
-}
+{"raspiId":"123456","resolution":"1920x1080","confidence":50}

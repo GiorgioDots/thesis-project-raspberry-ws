@@ -1,0 +1,51 @@
+Connected RaspiId: 123456
+Sending identification
+Identification sent
+/home/pi/thesis-project-raspberry-ws
+Retrieving actual configuration...
+Connected RaspiId: 123456
+Sending identification
+Identification sent
+Fetching the latest raspi-config from endpoint: https://raspiface-backend.herokuapp.com/raspi/config/123456
+Latest raspi-config: {"resolution":"1920x1080","confidence":20,"_id":"5e511a57d73b2f0017678590","raspiId":"123456","__v":0}
+raspi-config updated: {"raspiId":"123456","resolution":"1920x1080","confidence":20}
+Updating raspi-config from: {"raspiId":"123456","resolution":"1920x1080","confidence":20}
+Updating raspi-config to: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
+raspi-config updated: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
+rebooting
+/home/pi/thesis-project-raspberry-ws
+Retrieving actual configuration...
+Connected RaspiId: 123456
+Sending identification
+Identification sent
+Fetching the latest raspi-config from endpoint: https://raspiface-backend.herokuapp.com/raspi/config/123456
+Latest raspi-config: {"resolution":"1920x1080","confidence":50,"_id":"5e511a57d73b2f0017678590","raspiId":"123456","__v":0}
+raspi-config updated: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
+Updating raspi-config from: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
+Updating raspi-config to: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
+raspi-config updated: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
+rebooting
+/home/pi/thesis-project-raspberry-ws
+Retrieving actual configuration...
+Connected RaspiId: 123456
+Sending identification
+Identification sent
+Fetching the latest raspi-config from endpoint: https://raspiface-backend.herokuapp.com/raspi/config/123456
+Latest raspi-config: {"resolution":"1920x1080","confidence":50,"_id":"5e511a57d73b2f0017678590","raspiId":"123456","__v":0}
+raspi-config updated: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
+/home/pi/thesis-project-raspberry-ws
+Retrieving actual configuration...
+Connected RaspiId: 123456
+Sending identification
+Identification sent
+Fetching the latest raspi-config from endpoint: https://raspiface-backend.herokuapp.com/raspi/config/123456
+Latest raspi-config: {"resolution":"1920x1080","confidence":50,"_id":"5e511a57d73b2f0017678590","raspiId":"123456","__v":0}
+raspi-config updated: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
+/home/pi/thesis-project-raspberry-ws
+Retrieving actual configuration...
+Connected RaspiId: 123456
+Sending identification
+Identification sent
+Fetching the latest raspi-config from endpoint: https://raspiface-backend.herokuapp.com/raspi/config/123456
+Latest raspi-config: {"resolution":"1920x1080","confidence":50,"_id":"5e511a57d73b2f0017678590","raspiId":"123456","__v":0}
+raspi-config updated: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
