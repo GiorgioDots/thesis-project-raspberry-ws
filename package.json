@@ -5,15 +5,17 @@
   "main": "test-client.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js > logs.log"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "pi-wifi": "^1.2.0",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.8",
-    "socket.io-client": "^2.3.0"
+    "socket.io-client": "^2.3.0",
+    "winston": "^3.2.1"
   }
 }

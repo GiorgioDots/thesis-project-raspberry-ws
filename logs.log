@@ -1,51 +1,10 @@
-Connected RaspiId: 123456
-Sending identification
-Identification sent
-/home/pi/thesis-project-raspberry-ws
-Retrieving actual configuration...
-Connected RaspiId: 123456
-Sending identification
-Identification sent
-Fetching the latest raspi-config from endpoint: https://raspiface-backend.herokuapp.com/raspi/config/123456
-Latest raspi-config: {"resolution":"1920x1080","confidence":20,"_id":"5e511a57d73b2f0017678590","raspiId":"123456","__v":0}
-raspi-config updated: {"raspiId":"123456","resolution":"1920x1080","confidence":20}
-Updating raspi-config from: {"raspiId":"123456","resolution":"1920x1080","confidence":20}
-Updating raspi-config to: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
-raspi-config updated: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
-rebooting
-/home/pi/thesis-project-raspberry-ws
-Retrieving actual configuration...
-Connected RaspiId: 123456
-Sending identification
-Identification sent
-Fetching the latest raspi-config from endpoint: https://raspiface-backend.herokuapp.com/raspi/config/123456
-Latest raspi-config: {"resolution":"1920x1080","confidence":50,"_id":"5e511a57d73b2f0017678590","raspiId":"123456","__v":0}
-raspi-config updated: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
-Updating raspi-config from: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
-Updating raspi-config to: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
-raspi-config updated: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
-rebooting
-/home/pi/thesis-project-raspberry-ws
-Retrieving actual configuration...
-Connected RaspiId: 123456
-Sending identification
-Identification sent
-Fetching the latest raspi-config from endpoint: https://raspiface-backend.herokuapp.com/raspi/config/123456
-Latest raspi-config: {"resolution":"1920x1080","confidence":50,"_id":"5e511a57d73b2f0017678590","raspiId":"123456","__v":0}
-raspi-config updated: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
-/home/pi/thesis-project-raspberry-ws
-Retrieving actual configuration...
-Connected RaspiId: 123456
-Sending identification
-Identification sent
-Fetching the latest raspi-config from endpoint: https://raspiface-backend.herokuapp.com/raspi/config/123456
-Latest raspi-config: {"resolution":"1920x1080","confidence":50,"_id":"5e511a57d73b2f0017678590","raspiId":"123456","__v":0}
-raspi-config updated: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
-/home/pi/thesis-project-raspberry-ws
-Retrieving actual configuration...
-Connected RaspiId: 123456
-Sending identification
-Identification sent
-Fetching the latest raspi-config from endpoint: https://raspiface-backend.herokuapp.com/raspi/config/123456
-Latest raspi-config: {"resolution":"1920x1080","confidence":50,"_id":"5e511a57d73b2f0017678590","raspiId":"123456","__v":0}
-raspi-config updated: {"raspiId":"123456","resolution":"1920x1080","confidence":50}
+2020-04-13T18:21:08.015Z - info: [MAIN] Checking internet connection..
+2020-04-13T18:21:08.017Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T18:21:08.019Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T18:21:08.019Z - info: [MAIN] Fetching new configuration
+2020-04-13T18:21:08.019Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-13T18:21:08.019Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-13T18:21:08.295Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-13T18:21:08.296Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"1280x720","confidence":50,"isActive":true,"wifiPassword":"aaaaaaaaa","wifiSSID":"TIM-2018-1483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-13T18:21:08.296Z - info: [MAIN] Checking if a new wifi connection is configured
+new pass
