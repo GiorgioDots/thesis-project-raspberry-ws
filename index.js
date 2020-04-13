@@ -29,7 +29,7 @@ setTimeout(async () => {
   logger.info("[MAIN] Checking if a new wifi connection is configured");
   if (newConfig.wifiSSID != config.wifiSSID) {
     logger.info("[MAIN] Started connecting to a new wifi network..");
-    const isConnected = utils.connectToNewWifi(newConfig);
+    const isConnected = await utils.connectToNewWifi(newConfig);
     if (!isConnected) {
       throw new Error("Cannot connect to the new wifi..");
     }

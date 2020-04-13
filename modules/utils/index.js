@@ -55,6 +55,12 @@ exports.reboot = () => {
 
 exports.connectToNewWifi = (config) => {
   return new Promise((resolve, reject) => {
+    if (!config.wifiSSID) {
+      logger.info("[WIFI] Disconnecting from wifi.");
+      piWifi.disconnect(() => {
+        Promise.resolve("disconnected");
+      });
+    }
     if (config.wifiPassword) {
       logger.info("[WIFI] Connecting to a protected wifi..");
       piWifi.connectTo(
