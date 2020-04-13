@@ -8,7 +8,7 @@ const BACKEND_URL = "https://raspiface-backend.herokuapp.com";
 exports.getNewConfig = async (config) => {
   try {
     logger.info("[GET_NEW_CONFIG] Start fetching data");
-    logger.info(`${backendUrl}/raspberry/${config.raspiId}`);
+    logger.info(`${BACKEND_URL}/raspberry/${config.raspiId}`);
     const response = await request.get(
       `${backendUrl}/raspberry/${config.raspiId}`,
       { headers: { Authorization: `Bearer ${config.token}` } }
