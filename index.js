@@ -36,4 +36,7 @@ setTimeout(async () => {
 
   logger.info("[MAIN] Starting websocket client..");
   wsSocket.init();
+
+  logger.info("[MAIN] Starting ping to reboot");
+  utils.pingToReboot();
 }, 1000);

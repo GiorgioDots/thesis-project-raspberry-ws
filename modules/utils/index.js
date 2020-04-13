@@ -90,3 +90,15 @@ exports.connectToNewWifi = (config) => {
     }
   });
 };
+
+exports.pingToReboot = () => {
+  setInterval(() => {
+    logger.info("[PING_TO_REBOOT] Starting Ping to Reboot");
+    if (!this.isConnectedToInternet()) {
+      logger.info("[PING_TO_REBOOT] Rebooting..");
+      this.reboot();
+    } else {
+      logger.info("[PING_TO_REBOOT] No problem.");
+    }
+  }, 1000 * 60 * 10);
+};
