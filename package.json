@@ -5,7 +5,7 @@
   "main": "test-client.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js > logs.log"
+    "start": "node index.js >> logs.log"
   },
   "keywords": [],
   "author": "",
