@@ -10,7 +10,7 @@ exports.getNewConfig = async (config) => {
     logger.info("[GET_NEW_CONFIG] Start fetching data");
     logger.info(`${BACKEND_URL}/raspberry/${config.raspiId}`);
     const response = await request.get(
-      `${backendUrl}/raspberry/${config.raspiId}`,
+      `${BACKEND_URL}/raspberry/${config.raspiId}`,
       { headers: { Authorization: `Bearer ${config.token}` } }
     );
     logger.info("[GET_NEW_CONFIG] New config fetched");
