@@ -1,10 +1,1 @@
-{
-  "raspiId": "rid123456789",
-  "resolution": "1280x720",
-  "confidence": 50,
-  "isActive": true,
-  "wifiPassword": "aaaaaaaaa",
-  "wifiSSID": "TIM-20181483",
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug",
-  "isFirstRun": false
-}
+{"raspiId":"rid123456789","resolution":"1920x1080","confidence":24,"isActive":false,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}

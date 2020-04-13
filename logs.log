@@ -1,10 +1,158 @@
-2020-04-13T18:21:08.015Z - info: [MAIN] Checking internet connection..
-2020-04-13T18:21:08.017Z - info: [INTERNET_CONN_CHECKER] Pinging...
-2020-04-13T18:21:08.019Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
-2020-04-13T18:21:08.019Z - info: [MAIN] Fetching new configuration
-2020-04-13T18:21:08.019Z - info: [GET_NEW_CONFIG] Start fetching data
-2020-04-13T18:21:08.019Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
-2020-04-13T18:21:08.295Z - info: [GET_NEW_CONFIG] New config fetched
-2020-04-13T18:21:08.296Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"1280x720","confidence":50,"isActive":true,"wifiPassword":"aaaaaaaaa","wifiSSID":"TIM-2018-1483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
-2020-04-13T18:21:08.296Z - info: [MAIN] Checking if a new wifi connection is configured
-new pass
+2020-04-13T20:19:18.776Z - info: [MAIN] Checking internet connection..
+2020-04-13T20:19:18.783Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T20:19:18.794Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T20:19:18.795Z - info: [MAIN] Fetching new configuration
+2020-04-13T20:19:18.796Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-13T20:19:18.797Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-13T20:19:19.185Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-13T20:19:19.186Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"1920x1080","confidence":24,"isActive":true,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-13T20:19:19.188Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-13T20:19:19.188Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-13T20:19:19.189Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-13T20:19:19.543Z - info: [WIFI] Connected
+2020-04-13T20:19:19.544Z - info: [MAIN] Starting websocket client..
+2020-04-13T20:19:46.632Z - info: [WS] Connected to WS Controller
+2020-04-13T20:19:46.633Z - info: [WS] Sending identification
+2020-04-13T20:19:46.652Z - info: [WS] Identification sent
+2020-04-13T20:53:40.512Z - info: [MAIN] Checking internet connection..
+2020-04-13T20:53:40.521Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T20:53:40.534Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T20:53:40.535Z - info: [MAIN] Fetching new configuration
+2020-04-13T20:53:40.536Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-13T20:53:40.537Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-13T20:53:41.022Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-13T20:53:41.023Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"1920x1080","confidence":24,"isActive":true,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-13T20:53:41.025Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-13T20:53:41.026Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-13T20:53:41.028Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-13T20:53:41.274Z - info: [WIFI] Connected
+2020-04-13T20:53:41.275Z - info: [MAIN] Starting websocket client..
+2020-04-13T20:53:41.305Z - info: [MAIN] Starting ping to reboot
+2020-04-13T20:53:54.293Z - info: [WS] Connected to WS Controller
+2020-04-13T20:53:54.294Z - info: [WS] Sending identification
+2020-04-13T20:53:54.311Z - info: [WS] Identification sent
+2020-04-13T21:03:51.094Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-13T21:03:51.096Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T21:03:51.097Z - info: [PING_TO_REBOOT] No problem.
+2020-04-13T21:03:51.138Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T21:13:51.098Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-13T21:13:51.099Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T21:13:51.100Z - info: [PING_TO_REBOOT] No problem.
+2020-04-13T21:13:51.146Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T21:23:51.099Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-13T21:23:51.100Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T21:23:51.101Z - info: [PING_TO_REBOOT] No problem.
+2020-04-13T21:23:51.154Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T21:28:56.682Z - info: [WS] Connected to WS Controller
+2020-04-13T21:28:56.683Z - info: [WS] Sending identification
+2020-04-13T21:28:56.694Z - info: [WS] Identification sent
+2020-04-13T21:31:06.105Z - info: [MAIN] Checking internet connection..
+2020-04-13T21:31:06.114Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T21:31:06.126Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T21:31:06.127Z - info: [MAIN] Fetching new configuration
+2020-04-13T21:31:06.128Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-13T21:31:06.128Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-13T21:31:06.549Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-13T21:31:06.550Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"1920x1080","confidence":24,"isActive":true,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-13T21:31:06.553Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-13T21:31:06.554Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-13T21:31:06.555Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-13T21:31:06.822Z - info: [WIFI] Connected
+2020-04-13T21:31:06.823Z - info: [MAIN] Starting websocket client..
+2020-04-13T21:31:06.854Z - info: [MAIN] Starting ping to reboot
+2020-04-13T21:31:19.027Z - info: [WS] Connected to WS Controller
+2020-04-13T21:31:19.028Z - info: [WS] Sending identification
+2020-04-13T21:31:19.048Z - info: [WS] Identification sent
+2020-04-13T21:34:36.778Z - info: [MAIN] Checking internet connection..
+2020-04-13T21:34:36.794Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T21:34:36.807Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T21:34:36.809Z - info: [MAIN] Fetching new configuration
+2020-04-13T21:34:36.810Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-13T21:34:36.811Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-13T21:34:38.467Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-13T21:34:38.469Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"1920x1080","confidence":24,"isActive":true,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-13T21:34:38.473Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-13T21:34:38.475Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-13T21:34:38.477Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-13T21:34:38.821Z - info: [WIFI] Connected
+2020-04-13T21:34:38.822Z - info: [MAIN] Starting websocket client..
+2020-04-13T21:34:38.856Z - info: [MAIN] Starting ping to reboot
+2020-04-13T21:35:01.408Z - info: [WS] Connected to WS Controller
+2020-04-13T21:35:01.409Z - info: [WS] Sending identification
+2020-04-13T21:35:01.429Z - info: [WS] Identification sent
+2020-04-13T21:44:48.460Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-13T21:44:48.461Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T21:44:48.462Z - info: [PING_TO_REBOOT] No problem.
+2020-04-13T21:44:48.551Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T21:54:48.463Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-13T21:54:48.464Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T21:54:48.465Z - info: [PING_TO_REBOOT] No problem.
+2020-04-13T21:54:48.565Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T22:04:48.465Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-13T22:04:48.466Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T22:04:48.467Z - info: [PING_TO_REBOOT] No problem.
+2020-04-13T22:04:48.559Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T22:14:48.469Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-13T22:14:48.470Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T22:14:48.475Z - info: [PING_TO_REBOOT] No problem.
+2020-04-13T22:14:48.606Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T22:22:08.195Z - info: [WS] Connected to WS Controller
+2020-04-13T22:22:08.206Z - info: [WS] Sending identification
+2020-04-13T22:22:08.215Z - info: [WS] Identification sent
+2020-04-13T22:24:48.470Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-13T22:24:48.471Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T22:24:48.476Z - info: [PING_TO_REBOOT] No problem.
+2020-04-13T22:24:48.481Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T22:27:13.983Z - info: [MAIN] Checking internet connection..
+2020-04-13T22:27:14.008Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T22:27:14.038Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T22:27:14.040Z - info: [MAIN] Fetching new configuration
+2020-04-13T22:27:14.041Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-13T22:27:14.042Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-13T22:27:14.457Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-13T22:27:14.458Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"1920x1080","confidence":24,"isActive":true,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-13T22:27:14.460Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-13T22:27:14.461Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-13T22:27:14.462Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-13T22:27:14.804Z - info: [WIFI] Connected
+2020-04-13T22:27:14.805Z - info: [MAIN] Starting websocket client..
+2020-04-13T22:27:14.844Z - info: [MAIN] Starting ping to reboot
+2020-04-13T22:27:40.979Z - info: [WS] Connected to WS Controller
+2020-04-13T22:27:40.980Z - info: [WS] Sending identification
+2020-04-13T22:27:40.999Z - info: [WS] Identification sent
+2020-04-13T22:27:41.006Z - info: [WS] Executing command to start object detection
+2020-04-13T22:27:41.007Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-13T22:33:27.983Z - info: [WS] Recieved a reboot command from ws controller..
+2020-04-13T22:33:27.984Z - info: [REBOOT] Rebooting..
+2020-04-13T22:33:51.079Z - info: [MAIN] Checking internet connection..
+2020-04-13T22:33:51.103Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T22:33:51.194Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T22:33:51.195Z - info: [MAIN] Fetching new configuration
+2020-04-13T22:33:51.197Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-13T22:33:51.197Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-13T22:33:51.632Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-13T22:33:51.633Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"1920x1080","confidence":24,"isActive":false,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-13T22:33:51.635Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-13T22:33:51.636Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-13T22:33:51.637Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-13T22:33:51.951Z - info: [WIFI] Connected
+2020-04-13T22:33:51.952Z - info: [MAIN] Starting websocket client..
+2020-04-13T22:33:51.999Z - info: [MAIN] Starting ping to reboot
+2020-04-13T22:34:23.535Z - info: [WS] Connected to WS Controller
+2020-04-13T22:34:23.535Z - info: [WS] Sending identification
+2020-04-13T22:34:23.546Z - info: [WS] Identification sent
+2020-04-13T22:34:23.547Z - info: [WS] Executing command to start object detection
+2020-04-13T22:34:23.548Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-13T22:34:45.187Z - info: [OBJ_DETECTION] Process started..
