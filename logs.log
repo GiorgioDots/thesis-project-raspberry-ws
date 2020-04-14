@@ -156,3 +156,779 @@
 2020-04-13T22:34:23.547Z - info: [WS] Executing command to start object detection
 2020-04-13T22:34:23.548Z - info: [OBJ_DETECTION] Starting python process..
 2020-04-13T22:34:45.187Z - info: [OBJ_DETECTION] Process started..
+2020-04-13T22:36:53.356Z - info: [WS] Recieved a reboot command from ws controller..
+2020-04-13T22:36:53.358Z - info: [REBOOT] Rebooting..
+2020-04-13T22:37:16.682Z - info: [MAIN] Checking internet connection..
+2020-04-13T22:37:16.696Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T22:37:16.723Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T22:37:16.724Z - info: [MAIN] Fetching new configuration
+2020-04-13T22:37:16.725Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-13T22:37:16.726Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-13T22:37:17.176Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-13T22:37:17.177Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"1920x1080","confidence":24,"isActive":true,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-13T22:37:17.182Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-13T22:37:17.183Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-13T22:37:17.185Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-13T22:37:17.511Z - info: [WIFI] Connected
+2020-04-13T22:37:17.512Z - info: [MAIN] Starting websocket client..
+2020-04-13T22:37:17.555Z - info: [MAIN] Starting ping to reboot
+2020-04-13T22:37:29.661Z - info: [WS] Connected to WS Controller
+2020-04-13T22:37:29.663Z - info: [WS] Sending identification
+2020-04-13T22:37:29.682Z - info: [WS] Identification sent
+2020-04-13T22:37:29.682Z - info: [WS] Executing command to start object detection
+2020-04-13T22:37:29.683Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-13T22:40:37.240Z - info: [WS] Recieved a reboot command from ws controller..
+2020-04-13T22:40:37.242Z - info: [REBOOT] Rebooting..
+2020-04-13T22:40:59.108Z - info: [MAIN] Checking internet connection..
+2020-04-13T22:40:59.124Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T22:40:59.143Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T22:40:59.145Z - info: [MAIN] Fetching new configuration
+2020-04-13T22:40:59.147Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-13T22:40:59.148Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-13T22:40:59.569Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-13T22:40:59.570Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"1920x1080","confidence":24,"isActive":false,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-13T22:40:59.572Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-13T22:40:59.573Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-13T22:40:59.574Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-13T22:40:59.879Z - info: [WIFI] Connected
+2020-04-13T22:40:59.880Z - info: [MAIN] Starting websocket client..
+2020-04-13T22:40:59.919Z - info: [MAIN] Starting ping to reboot
+2020-04-13T22:41:33.123Z - info: [WS] Connected to WS Controller
+2020-04-13T22:41:33.124Z - info: [WS] Sending identification
+2020-04-13T22:41:33.149Z - info: [WS] Identification sent
+2020-04-13T22:41:33.150Z - info: [WS] Executing command to start object detection
+2020-04-13T22:41:33.151Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-13T22:41:55.185Z - info: [OBJ_DETECTION] Process started..
+2020-04-13T22:51:09.748Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-13T22:51:09.749Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T22:51:09.750Z - info: [PING_TO_REBOOT] No problem.
+2020-04-13T22:51:09.755Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T23:01:09.755Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-13T23:01:09.757Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T23:01:09.758Z - info: [PING_TO_REBOOT] No problem.
+2020-04-13T23:01:09.777Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T23:11:09.762Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-13T23:11:09.763Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T23:11:09.764Z - info: [PING_TO_REBOOT] No problem.
+2020-04-13T23:11:09.784Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T23:21:09.765Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-13T23:21:09.766Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T23:21:09.767Z - info: [PING_TO_REBOOT] No problem.
+2020-04-13T23:21:09.786Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T23:21:53.243Z - info: [WS] Connected to WS Controller
+2020-04-13T23:21:53.244Z - info: [WS] Sending identification
+2020-04-13T23:21:53.253Z - info: [WS] Identification sent
+2020-04-13T23:21:53.253Z - info: [WS] Executing command to start object detection
+2020-04-13T23:21:53.254Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-13T23:22:05.115Z - info: [OBJ_DETECTION] Process started..
+2020-04-13T23:31:09.770Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-13T23:31:09.771Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T23:31:09.772Z - info: [PING_TO_REBOOT] No problem.
+2020-04-13T23:31:09.787Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T23:41:09.772Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-13T23:41:09.773Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T23:41:09.774Z - info: [PING_TO_REBOOT] No problem.
+2020-04-13T23:41:09.810Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T23:51:09.793Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-13T23:51:09.794Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-13T23:51:09.795Z - info: [PING_TO_REBOOT] No problem.
+2020-04-13T23:51:09.817Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-13T23:57:43.722Z - info: [WS] Connected to WS Controller
+2020-04-13T23:57:43.722Z - info: [WS] Sending identification
+2020-04-13T23:57:43.730Z - info: [WS] Identification sent
+2020-04-13T23:57:43.731Z - info: [WS] Executing command to start object detection
+2020-04-13T23:57:43.731Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-13T23:57:55.579Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T00:01:09.794Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T00:01:09.795Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T00:01:09.796Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T00:01:09.816Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T00:11:09.797Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T00:11:09.798Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T00:11:09.799Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T00:11:09.823Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T00:21:09.797Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T00:21:09.798Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T00:21:09.799Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T00:21:09.838Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T00:31:09.815Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T00:31:09.816Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T00:31:09.817Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T00:31:09.866Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T00:33:31.639Z - info: [WS] Connected to WS Controller
+2020-04-14T00:33:31.640Z - info: [WS] Sending identification
+2020-04-14T00:33:31.647Z - info: [WS] Identification sent
+2020-04-14T00:33:31.648Z - info: [WS] Executing command to start object detection
+2020-04-14T00:33:31.648Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T00:33:43.385Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T00:41:09.817Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T00:41:09.818Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T00:41:09.819Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T00:41:09.852Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T00:51:09.822Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T00:51:09.823Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T00:51:09.823Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T00:51:09.854Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T01:01:09.824Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T01:01:09.825Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T01:01:09.826Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T01:01:09.880Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T01:09:25.797Z - info: [WS] Connected to WS Controller
+2020-04-14T01:09:25.798Z - info: [WS] Sending identification
+2020-04-14T01:09:25.805Z - info: [WS] Identification sent
+2020-04-14T01:09:25.806Z - info: [WS] Executing command to start object detection
+2020-04-14T01:09:25.806Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T01:09:37.574Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T01:11:09.829Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T01:11:09.829Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T01:11:09.830Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T01:11:09.888Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T01:21:09.831Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T01:21:09.832Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T01:21:09.833Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T01:21:09.888Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T01:31:09.851Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T01:31:09.852Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T01:31:09.853Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T01:31:09.894Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T01:41:09.869Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T01:41:09.870Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T01:41:09.871Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T01:41:09.909Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T01:44:59.707Z - info: [WS] Connected to WS Controller
+2020-04-14T01:44:59.708Z - info: [WS] Sending identification
+2020-04-14T01:44:59.715Z - info: [WS] Identification sent
+2020-04-14T01:44:59.716Z - info: [WS] Executing command to start object detection
+2020-04-14T01:44:59.716Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T01:45:11.550Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T01:51:09.884Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T01:51:09.885Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T01:51:09.886Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T01:51:09.915Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T02:01:09.896Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T02:01:09.897Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T02:01:09.898Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T02:01:09.923Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T02:11:09.907Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T02:11:09.908Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T02:11:09.909Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T02:11:09.934Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T02:19:23.455Z - info: [WS] Connected to WS Controller
+2020-04-14T02:19:23.456Z - info: [WS] Sending identification
+2020-04-14T02:19:23.463Z - info: [WS] Identification sent
+2020-04-14T02:19:23.464Z - info: [WS] Executing command to start object detection
+2020-04-14T02:19:23.464Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T02:19:35.216Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T02:21:09.909Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T02:21:09.909Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T02:21:09.910Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T02:21:09.942Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T02:31:09.913Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T02:31:09.914Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T02:31:09.915Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T02:31:09.964Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T02:41:09.915Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T02:41:09.916Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T02:41:09.917Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T02:41:09.941Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T02:51:09.915Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T02:51:09.916Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T02:51:09.917Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T02:51:09.947Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T02:54:34.661Z - info: [WS] Connected to WS Controller
+2020-04-14T02:54:34.661Z - info: [WS] Sending identification
+2020-04-14T02:54:34.668Z - info: [WS] Identification sent
+2020-04-14T02:54:34.668Z - info: [WS] Executing command to start object detection
+2020-04-14T02:54:34.669Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T02:54:46.454Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T03:01:09.928Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T03:01:09.929Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T03:01:09.930Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T03:01:09.978Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T03:11:09.941Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T03:11:09.942Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T03:11:09.943Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T03:11:09.961Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T03:21:09.951Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T03:21:09.952Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T03:21:09.953Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T03:21:09.986Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T03:30:03.964Z - info: [WS] Connected to WS Controller
+2020-04-14T03:30:03.965Z - info: [WS] Sending identification
+2020-04-14T03:30:03.971Z - info: [WS] Identification sent
+2020-04-14T03:30:03.972Z - info: [WS] Executing command to start object detection
+2020-04-14T03:30:03.972Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T03:30:15.770Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T03:31:09.962Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T03:31:09.963Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T03:31:09.963Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T03:31:10.020Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T03:41:09.971Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T03:41:09.971Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T03:41:09.972Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T03:41:10.006Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T03:51:09.978Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T03:51:09.979Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T03:51:09.980Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T03:51:10.029Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T04:01:09.984Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T04:01:09.985Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T04:01:09.985Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T04:01:10.033Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T04:04:58.657Z - info: [WS] Connected to WS Controller
+2020-04-14T04:04:58.658Z - info: [WS] Sending identification
+2020-04-14T04:04:58.664Z - info: [WS] Identification sent
+2020-04-14T04:04:58.665Z - info: [WS] Executing command to start object detection
+2020-04-14T04:04:58.665Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T04:05:10.428Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T04:11:09.999Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T04:11:10.000Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T04:11:10.001Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T04:11:10.022Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T04:21:10.013Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T04:21:10.013Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T04:21:10.014Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T04:21:10.066Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T04:31:10.025Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T04:31:10.026Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T04:31:10.027Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T04:31:10.053Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T04:39:26.428Z - info: [WS] Connected to WS Controller
+2020-04-14T04:39:26.429Z - info: [WS] Sending identification
+2020-04-14T04:39:26.439Z - info: [WS] Identification sent
+2020-04-14T04:39:26.439Z - info: [WS] Executing command to start object detection
+2020-04-14T04:39:26.440Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T04:39:38.287Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T04:41:10.028Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T04:41:10.029Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T04:41:10.029Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T04:41:10.050Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T04:51:10.030Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T04:51:10.031Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T04:51:10.032Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T04:51:10.058Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T05:01:10.030Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T05:01:10.031Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T05:01:10.032Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T05:01:10.077Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T05:11:10.048Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T05:11:10.049Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T05:11:10.050Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T05:11:10.090Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T05:16:29.128Z - info: [WS] Connected to WS Controller
+2020-04-14T05:16:29.128Z - info: [WS] Sending identification
+2020-04-14T05:16:29.135Z - info: [WS] Identification sent
+2020-04-14T05:16:29.135Z - info: [WS] Executing command to start object detection
+2020-04-14T05:16:29.136Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T05:16:40.898Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T05:21:10.050Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T05:21:10.051Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T05:21:10.052Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T05:21:10.101Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T05:31:10.053Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T05:31:10.053Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T05:31:10.054Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T05:31:10.087Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T05:41:10.054Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T05:41:10.055Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T05:41:10.055Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T05:41:10.118Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T05:50:08.497Z - info: [WS] Connected to WS Controller
+2020-04-14T05:50:08.497Z - info: [WS] Sending identification
+2020-04-14T05:50:08.504Z - info: [WS] Identification sent
+2020-04-14T05:50:08.504Z - info: [WS] Executing command to start object detection
+2020-04-14T05:50:08.505Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T05:50:20.336Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T05:51:10.060Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T05:51:10.061Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T05:51:10.062Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T05:51:10.109Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T06:01:10.065Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T06:01:10.066Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T06:01:10.067Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T06:01:10.125Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T06:11:10.069Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T06:11:10.069Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T06:11:10.070Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T06:11:10.125Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T06:21:10.070Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T06:21:10.070Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T06:21:10.071Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T06:21:10.132Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T06:24:45.278Z - info: [WS] Connected to WS Controller
+2020-04-14T06:24:45.279Z - info: [WS] Sending identification
+2020-04-14T06:24:45.285Z - info: [WS] Identification sent
+2020-04-14T06:24:45.285Z - info: [WS] Executing command to start object detection
+2020-04-14T06:24:45.286Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T06:24:57.070Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T06:31:10.073Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T06:31:10.074Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T06:31:10.075Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T06:31:10.153Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T06:41:10.075Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T06:41:10.076Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T06:41:10.077Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T06:41:10.164Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T06:51:10.080Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T06:51:10.081Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T06:51:10.082Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T06:51:10.168Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T07:01:10.082Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T07:01:10.083Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T07:01:10.083Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T07:01:10.163Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T07:01:19.621Z - info: [WS] Connected to WS Controller
+2020-04-14T07:01:19.622Z - info: [WS] Sending identification
+2020-04-14T07:01:19.628Z - info: [WS] Identification sent
+2020-04-14T07:01:19.628Z - info: [WS] Executing command to start object detection
+2020-04-14T07:01:19.629Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T07:01:31.453Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T07:11:10.091Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T07:11:10.092Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T07:11:10.093Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T07:11:10.175Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T07:21:10.098Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T07:21:10.099Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T07:21:10.100Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T07:21:10.196Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T07:31:10.103Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T07:31:10.104Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T07:31:10.105Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T07:31:10.209Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T07:36:53.834Z - info: [WS] Connected to WS Controller
+2020-04-14T07:36:53.834Z - info: [WS] Sending identification
+2020-04-14T07:36:53.840Z - info: [WS] Identification sent
+2020-04-14T07:36:53.841Z - info: [WS] Executing command to start object detection
+2020-04-14T07:36:53.841Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T07:37:05.628Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T07:41:10.103Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T07:41:10.104Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T07:41:10.105Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T07:41:10.220Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T07:51:10.107Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T07:51:10.108Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T07:51:10.109Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T07:51:10.224Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T08:01:10.109Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T08:01:10.110Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T08:01:10.111Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T08:01:10.237Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T08:11:10.109Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T08:11:10.110Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T08:11:10.111Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T08:11:10.244Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T08:13:11.455Z - info: [WS] Connected to WS Controller
+2020-04-14T08:13:11.455Z - info: [WS] Sending identification
+2020-04-14T08:13:11.461Z - info: [WS] Identification sent
+2020-04-14T08:13:11.462Z - info: [WS] Executing command to start object detection
+2020-04-14T08:13:11.462Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T08:13:23.276Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T08:21:10.112Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T08:21:10.113Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T08:21:10.114Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T08:21:10.266Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T08:31:10.112Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T08:31:10.113Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T08:31:10.114Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T08:31:10.263Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T08:41:10.130Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T08:41:10.131Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T08:41:10.132Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T08:41:10.266Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T08:45:29.164Z - info: [WS] Connected to WS Controller
+2020-04-14T08:45:29.165Z - info: [WS] Sending identification
+2020-04-14T08:45:29.171Z - info: [WS] Identification sent
+2020-04-14T08:45:29.171Z - info: [WS] Executing command to start object detection
+2020-04-14T08:45:29.172Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T08:45:40.986Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T08:51:10.140Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T08:51:10.141Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T08:51:10.142Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T08:51:10.284Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T09:01:10.148Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T09:01:10.149Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T09:01:10.150Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T09:01:10.296Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T09:11:10.155Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T09:11:10.156Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T09:11:10.156Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T09:11:10.307Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T09:19:56.041Z - info: [WS] Connected to WS Controller
+2020-04-14T09:19:56.042Z - info: [WS] Sending identification
+2020-04-14T09:19:56.048Z - info: [WS] Identification sent
+2020-04-14T09:19:56.049Z - info: [WS] Executing command to start object detection
+2020-04-14T09:19:56.049Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T09:20:07.810Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T09:21:10.174Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T09:21:10.175Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T09:21:10.176Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T09:21:10.304Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T09:31:10.191Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T09:31:10.192Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T09:31:10.193Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T09:31:10.312Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T09:41:10.207Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T09:41:10.207Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T09:41:10.208Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T09:41:10.325Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T09:51:10.220Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T09:51:10.221Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T09:51:10.222Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T09:51:10.342Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T09:54:38.042Z - info: [WS] Connected to WS Controller
+2020-04-14T09:54:38.042Z - info: [WS] Sending identification
+2020-04-14T09:54:38.048Z - info: [WS] Identification sent
+2020-04-14T09:54:38.049Z - info: [WS] Executing command to start object detection
+2020-04-14T09:54:38.049Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T09:54:49.836Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T10:01:10.232Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T10:01:10.232Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T10:01:10.233Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T10:01:10.342Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T10:11:10.241Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T10:11:10.242Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T10:11:10.243Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T10:11:10.355Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T10:21:10.248Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T10:21:10.248Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T10:21:10.249Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T10:21:10.367Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T10:28:56.364Z - info: [WS] Connected to WS Controller
+2020-04-14T10:28:56.364Z - info: [WS] Sending identification
+2020-04-14T10:28:56.370Z - info: [WS] Identification sent
+2020-04-14T10:28:56.371Z - info: [WS] Executing command to start object detection
+2020-04-14T10:28:56.371Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T10:29:08.148Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T10:31:10.252Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T10:31:10.253Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T10:31:10.253Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T10:31:10.367Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T10:39:25.843Z - info: [WS] Recieved a reboot command from ws controller..
+2020-04-14T10:39:25.843Z - info: [REBOOT] Rebooting..
+2020-04-14T10:39:48.807Z - info: [MAIN] Checking internet connection..
+2020-04-14T10:39:48.825Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T10:39:48.848Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T10:39:48.849Z - info: [MAIN] Fetching new configuration
+2020-04-14T10:39:48.850Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-14T10:39:48.851Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-14T10:39:49.267Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-14T10:39:49.268Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"1920x1080","confidence":24,"isActive":true,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-14T10:39:49.269Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-14T10:39:49.270Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-14T10:39:49.271Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-14T10:39:49.592Z - info: [WIFI] Connected
+2020-04-14T10:39:49.594Z - info: [MAIN] Starting websocket client..
+2020-04-14T10:39:49.617Z - info: [MAIN] Starting ping to reboot
+2020-04-14T10:40:12.671Z - info: [WS] Connected to WS Controller
+2020-04-14T10:40:12.671Z - info: [WS] Sending identification
+2020-04-14T10:40:12.681Z - info: [WS] Identification sent
+2020-04-14T10:40:12.681Z - info: [WS] Executing command to start object detection
+2020-04-14T10:40:12.682Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T10:43:14.724Z - info: [WS] Recieved a reboot command from ws controller..
+2020-04-14T10:43:14.725Z - info: [REBOOT] Rebooting..
+2020-04-14T10:43:37.714Z - info: [MAIN] Checking internet connection..
+2020-04-14T10:43:37.736Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T10:43:37.749Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T10:43:37.750Z - info: [MAIN] Fetching new configuration
+2020-04-14T10:43:37.752Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-14T10:43:37.752Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-14T10:43:38.159Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-14T10:43:38.160Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"1920x1080","confidence":24,"isActive":false,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-14T10:43:38.162Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-14T10:43:38.163Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-14T10:43:38.164Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-14T10:43:38.423Z - info: [WIFI] Connected
+2020-04-14T10:43:38.427Z - info: [MAIN] Starting websocket client..
+2020-04-14T10:43:38.469Z - info: [MAIN] Starting ping to reboot
+2020-04-14T10:43:50.762Z - info: [WS] Connected to WS Controller
+2020-04-14T10:43:50.763Z - info: [WS] Sending identification
+2020-04-14T10:43:50.782Z - info: [WS] Identification sent
+2020-04-14T10:43:50.782Z - info: [WS] Executing command to start object detection
+2020-04-14T10:43:50.783Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T10:44:12.498Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T10:45:52.705Z - info: [WS] Recieved a reboot command from ws controller..
+2020-04-14T10:45:52.706Z - info: [REBOOT] Rebooting..
+2020-04-14T10:46:15.530Z - info: [MAIN] Checking internet connection..
+2020-04-14T10:46:15.543Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T10:46:15.554Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T10:46:15.558Z - info: [MAIN] Fetching new configuration
+2020-04-14T10:46:15.559Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-14T10:46:15.559Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-14T10:46:15.950Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-14T10:46:15.951Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"1280x720","confidence":55,"isActive":false,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-14T10:46:15.953Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-14T10:46:15.953Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-14T10:46:15.954Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-14T10:46:16.251Z - info: [WIFI] Connected
+2020-04-14T10:46:16.251Z - info: [MAIN] Starting websocket client..
+2020-04-14T10:46:16.292Z - info: [MAIN] Starting ping to reboot
+2020-04-14T10:46:28.853Z - info: [WS] Connected to WS Controller
+2020-04-14T10:46:28.855Z - info: [WS] Sending identification
+2020-04-14T10:46:28.873Z - info: [WS] Identification sent
+2020-04-14T10:46:28.874Z - info: [WS] Executing command to start object detection
+2020-04-14T10:46:28.876Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T10:46:50.269Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T10:46:53.661Z - info: [WS] Recieved a reboot command from ws controller..
+2020-04-14T10:46:53.662Z - info: [REBOOT] Rebooting..
+2020-04-14T10:47:16.887Z - info: [MAIN] Checking internet connection..
+2020-04-14T10:47:16.910Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T10:47:16.925Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T10:47:16.926Z - info: [MAIN] Fetching new configuration
+2020-04-14T10:47:16.927Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-14T10:47:16.927Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-14T10:47:17.339Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-14T10:47:17.340Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"1280x720","confidence":75,"isActive":true,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-14T10:47:17.342Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-14T10:47:17.342Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-14T10:47:17.343Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-14T10:47:17.622Z - info: [WIFI] Connected
+2020-04-14T10:47:17.623Z - info: [MAIN] Starting websocket client..
+2020-04-14T10:47:17.664Z - info: [MAIN] Starting ping to reboot
+2020-04-14T10:47:29.537Z - info: [WS] Connected to WS Controller
+2020-04-14T10:47:29.538Z - info: [WS] Sending identification
+2020-04-14T10:47:29.556Z - info: [WS] Identification sent
+2020-04-14T10:47:29.557Z - info: [WS] Executing command to start object detection
+2020-04-14T10:47:29.558Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T10:57:27.844Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T10:57:27.845Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T10:57:27.846Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T10:57:27.865Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T10:58:38.953Z - info: [WS] Recieved a reboot command from ws controller..
+2020-04-14T10:58:38.954Z - info: [REBOOT] Rebooting..
+2020-04-14T10:59:01.501Z - info: [MAIN] Checking internet connection..
+2020-04-14T10:59:01.533Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T10:59:01.554Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T10:59:01.556Z - info: [MAIN] Fetching new configuration
+2020-04-14T10:59:01.559Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-14T10:59:01.560Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-14T10:59:01.973Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-14T10:59:01.974Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"1280x720","confidence":75,"isActive":false,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-14T10:59:01.976Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-14T10:59:01.976Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-14T10:59:01.978Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-14T10:59:02.272Z - info: [WIFI] Connected
+2020-04-14T10:59:02.273Z - info: [MAIN] Starting websocket client..
+2020-04-14T10:59:02.313Z - info: [MAIN] Starting ping to reboot
+2020-04-14T11:00:15.345Z - info: [WS] Connected to WS Controller
+2020-04-14T11:00:15.346Z - info: [WS] Sending identification
+2020-04-14T11:00:15.364Z - info: [WS] Identification sent
+2020-04-14T11:00:15.365Z - info: [WS] Executing command to start object detection
+2020-04-14T11:00:15.366Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T11:00:27.561Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T11:04:10.242Z - info: [WS] Recieved a reboot command from ws controller..
+2020-04-14T11:04:10.243Z - info: [REBOOT] Rebooting..
+2020-04-14T11:04:32.933Z - info: [MAIN] Checking internet connection..
+2020-04-14T11:04:32.963Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T11:04:32.985Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T11:04:32.987Z - info: [MAIN] Fetching new configuration
+2020-04-14T11:04:32.989Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-14T11:04:32.991Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-14T11:04:33.701Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-14T11:04:33.702Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"1280x720","confidence":75,"isActive":false,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-14T11:04:33.705Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-14T11:04:33.705Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-14T11:04:33.707Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-14T11:04:33.981Z - info: [WIFI] Connected
+2020-04-14T11:04:33.982Z - info: [MAIN] Starting websocket client..
+2020-04-14T11:04:34.020Z - info: [MAIN] Starting ping to reboot
+2020-04-14T11:04:57.066Z - info: [WS] Connected to WS Controller
+2020-04-14T11:04:57.067Z - info: [WS] Sending identification
+2020-04-14T11:04:57.086Z - info: [WS] Identification sent
+2020-04-14T11:04:57.086Z - info: [WS] Executing command to start object detection
+2020-04-14T11:04:57.088Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T11:05:09.104Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T11:09:54.191Z - info: [WS] Recieved a reboot command from ws controller..
+2020-04-14T11:09:54.192Z - info: [REBOOT] Rebooting..
+2020-04-14T11:10:16.815Z - info: [MAIN] Checking internet connection..
+2020-04-14T11:10:16.827Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T11:10:16.850Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T11:10:16.852Z - info: [MAIN] Fetching new configuration
+2020-04-14T11:10:16.853Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-14T11:10:16.853Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-14T11:10:17.239Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-14T11:10:17.240Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"640x480","confidence":75,"isActive":true,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-14T11:10:17.242Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-14T11:10:17.243Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-14T11:10:17.244Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-14T11:10:17.496Z - info: [WIFI] Connected
+2020-04-14T11:10:17.497Z - info: [MAIN] Starting websocket client..
+2020-04-14T11:10:17.536Z - info: [MAIN] Starting ping to reboot
+2020-04-14T11:10:44.023Z - info: [WS] Connected to WS Controller
+2020-04-14T11:10:44.024Z - info: [WS] Sending identification
+2020-04-14T11:10:44.042Z - info: [WS] Identification sent
+2020-04-14T11:10:44.043Z - info: [WS] Executing command to start object detection
+2020-04-14T11:10:44.045Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T11:20:28.225Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T11:20:28.226Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T11:20:28.227Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T11:20:28.301Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T11:25:37.489Z - info: [WS] Recieved a reboot command from ws controller..
+2020-04-14T11:25:37.490Z - info: [REBOOT] Rebooting..
+2020-04-14T11:25:59.181Z - info: [MAIN] Checking internet connection..
+2020-04-14T11:25:59.201Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T11:25:59.216Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T11:25:59.219Z - info: [MAIN] Fetching new configuration
+2020-04-14T11:25:59.221Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-14T11:25:59.222Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-14T11:25:59.727Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-14T11:25:59.728Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"640x480","confidence":75,"isActive":false,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-14T11:25:59.730Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-14T11:25:59.731Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-14T11:25:59.732Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-14T11:26:00.011Z - info: [WIFI] Connected
+2020-04-14T11:26:00.012Z - info: [MAIN] Starting websocket client..
+2020-04-14T11:26:00.054Z - info: [MAIN] Starting ping to reboot
+2020-04-14T11:26:13.115Z - info: [WS] Connected to WS Controller
+2020-04-14T11:26:13.116Z - info: [WS] Sending identification
+2020-04-14T11:26:13.134Z - info: [WS] Identification sent
+2020-04-14T11:26:13.135Z - info: [WS] Executing command to start object detection
+2020-04-14T11:26:13.137Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T11:26:34.410Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T11:36:09.147Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T11:36:09.148Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T11:36:09.149Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T11:36:09.233Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T11:46:09.147Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T11:46:09.148Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T11:46:09.149Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T11:46:09.249Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T11:56:09.151Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T11:56:09.152Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T11:56:09.153Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T11:56:09.247Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T12:06:09.152Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T12:06:09.153Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T12:06:09.154Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T12:06:09.266Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T12:16:09.172Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T12:16:09.173Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T12:16:09.174Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T12:16:09.255Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T12:22:03.338Z - info: [WS] Connected to WS Controller
+2020-04-14T12:22:03.338Z - info: [WS] Sending identification
+2020-04-14T12:22:03.348Z - info: [WS] Identification sent
+2020-04-14T12:22:03.349Z - info: [WS] Executing command to start object detection
+2020-04-14T12:22:03.350Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T12:22:15.142Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T12:26:09.187Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T12:26:09.188Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T12:26:09.189Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T12:26:09.275Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T12:36:09.200Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T12:36:09.201Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T12:36:09.202Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T12:36:09.289Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T12:46:09.211Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T12:46:09.212Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T12:46:09.213Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T12:46:09.295Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T12:56:09.221Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T12:56:09.222Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T12:56:09.223Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T12:56:09.301Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T12:59:56.244Z - info: [WS] Connected to WS Controller
+2020-04-14T12:59:56.244Z - info: [WS] Sending identification
+2020-04-14T12:59:56.254Z - info: [WS] Identification sent
+2020-04-14T12:59:56.254Z - info: [WS] Executing command to start object detection
+2020-04-14T12:59:56.255Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T13:00:08.070Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T13:06:09.238Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T13:06:09.239Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T13:06:09.240Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T13:06:09.314Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T13:16:09.253Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T13:16:09.254Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T13:16:09.255Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T13:16:09.315Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T13:26:09.267Z - info: [PING_TO_REBOOT] Starting Ping to Reboot
+2020-04-14T13:26:09.268Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T13:26:09.269Z - info: [PING_TO_REBOOT] No problem.
+2020-04-14T13:26:09.327Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T13:31:25.598Z - info: [WS] Recieved a reboot command from ws controller..
+2020-04-14T13:31:25.599Z - info: [REBOOT] Rebooting..
+2020-04-14T13:31:48.549Z - info: [MAIN] Checking internet connection..
+2020-04-14T13:31:48.562Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T13:31:48.586Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T13:31:48.588Z - info: [MAIN] Fetching new configuration
+2020-04-14T13:31:48.590Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-14T13:31:48.591Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-14T13:31:48.999Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-14T13:31:49.000Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"640x480","confidence":75,"isActive":false,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-14T13:31:49.002Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-14T13:31:49.003Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-14T13:31:49.004Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-14T13:31:49.261Z - info: [WIFI] Connected
+2020-04-14T13:31:49.262Z - info: [MAIN] Starting websocket client..
+2020-04-14T13:31:49.295Z - info: [MAIN] Starting ping to reboot
+2020-04-14T13:32:02.180Z - info: [WS] Connected to WS Controller
+2020-04-14T13:32:02.181Z - info: [WS] Sending identification
+2020-04-14T13:32:02.200Z - info: [WS] Identification sent
+2020-04-14T13:32:02.201Z - info: [WS] Executing command to start object detection
+2020-04-14T13:32:02.202Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T13:33:23.631Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T13:38:46.519Z - info: [WS] Recieved a reboot command from ws controller..
+2020-04-14T13:38:46.520Z - info: [REBOOT] Rebooting..
+2020-04-14T13:39:09.711Z - info: [MAIN] Checking internet connection..
+2020-04-14T13:39:09.727Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T13:39:09.743Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T13:39:09.745Z - info: [MAIN] Fetching new configuration
+2020-04-14T13:39:09.746Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-14T13:39:09.747Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-14T13:39:10.191Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-14T13:39:10.192Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"640x480","confidence":75,"isActive":false,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-14T13:39:10.195Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-14T13:39:10.196Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-14T13:39:10.197Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-14T13:39:10.516Z - info: [WIFI] Connected
+2020-04-14T13:39:10.518Z - info: [MAIN] Starting websocket client..
+2020-04-14T13:39:10.547Z - info: [MAIN] Starting ping to reboot
+2020-04-14T13:39:25.063Z - info: [WS] Connected to WS Controller
+2020-04-14T13:39:25.064Z - info: [WS] Sending identification
+2020-04-14T13:39:25.083Z - info: [WS] Identification sent
+2020-04-14T13:39:25.084Z - info: [WS] Executing command to start object detection
+2020-04-14T13:39:25.085Z - info: [OBJ_DETECTION] Starting python process..
+2020-04-14T13:40:46.237Z - info: [OBJ_DETECTION] Process started..
+2020-04-14T13:43:29.434Z - info: [MAIN] Checking internet connection..
+2020-04-14T13:43:29.446Z - info: [INTERNET_CONN_CHECKER] Pinging...
+2020-04-14T13:43:29.461Z - info: [INTERNET_CONN_CHECKER] Connected to internet...
+2020-04-14T13:43:29.462Z - info: [MAIN] Fetching new configuration
+2020-04-14T13:43:29.464Z - info: [GET_NEW_CONFIG] Start fetching data
+2020-04-14T13:43:29.464Z - info: https://raspiface-backend.herokuapp.com/raspberry/rid123456789
+2020-04-14T13:43:29.885Z - info: [GET_NEW_CONFIG] New config fetched
+2020-04-14T13:43:29.886Z - info: [MAIN] Fetched config: {"raspiId":"rid123456789","resolution":"640x480","confidence":75,"isActive":false,"wifiPassword":"aaaaaaaa","wifiSSID":"TIM-20181483","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYXNwaUlkIjoicmlkMTIzNDU2Nzg5IiwiaWF0IjoxNTg2ODAxOTg3fQ.12tZoJ9dZAvsAD29ehco2YU1C6qthNYkqDIVAbpo6Ug","isFirstRun":false}
+2020-04-14T13:43:29.887Z - info: [MAIN] Checking if a new wifi connection is configured
+2020-04-14T13:43:29.888Z - info: [MAIN] Started connecting to a new wifi network..
+2020-04-14T13:43:29.889Z - info: [WIFI] Connecting to a protected wifi..
+>>> Setting ssid with '"TIM-20181483"'
+>>> Setting psk with '"aaaaaaaa"'
+2020-04-14T13:43:30.164Z - info: [WIFI] Connected
+2020-04-14T13:43:30.165Z - info: [MAIN] Starting websocket client..
+2020-04-14T13:43:30.195Z - info: [MAIN] Starting ping to reboot
+2020-04-14T13:43:56.228Z - info: [WS] Connected to WS Controller
+2020-04-14T13:43:56.229Z - info: [WS] Sending identification
+2020-04-14T13:43:56.247Z - info: [WS] Identification sent
+2020-04-14T13:43:56.248Z - info: [WS] Executing command to start object detection

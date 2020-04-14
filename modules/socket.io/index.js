@@ -19,7 +19,7 @@ module.exports = {
     socket.emit("identification", JSON.stringify({ id: config.raspiId }));
     logger.info("[WS] Identification sent");
     logger.info("[WS] Executing command to start object detection");
-    utils.startObjDetection();
+    //utils.startObjDetection();
   },
   onRestart() {
     logger.info("[WS] Recieved a reboot command from ws controller..");
