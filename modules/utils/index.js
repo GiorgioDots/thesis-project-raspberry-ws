@@ -55,10 +55,16 @@ exports.reboot = () => {
 
 exports.startObjDetection = () => {
   logger.info("[OBJ_DETECTION] Starting python process..");
-  require("child_process").exec("sudo python /home/pi/thesis-project-raspberry/object-detection.py --prototxt /home/pi/thesis-project-raspberry/MobileNetSSD_deploy.prototxt.txt --model /home/pi/thesis-project-raspberry/MobileNetSSD_deploy.caffemodel & > /home/pi/thesis-project-raspberry/logs.log 2>&1", function (msg) {
-    logger.info("[OBJ_DETECTION] Process started..");
-  });
-}
+  require("child_process").exec(
+    `sudo python /home/pi/thesis-project-raspberry/object-detection.py 
+    --prototxt /home/pi/thesis-project-raspberry/MobileNetSSD_deploy.prototxt.txt 
+    --model /home/pi/thesis-project-raspberry/MobileNetSSD_deploy.caffemodel 
+    >> /home/pi/thesis-project-raspberry/logs.log`,
+    function (msg) {
+      logger.info("[OBJ_DETECTION] Process started..");
+    }
+  );
+};
 
 exports.connectToNewWifi = (config) => {
   return new Promise((resolve, reject) => {
